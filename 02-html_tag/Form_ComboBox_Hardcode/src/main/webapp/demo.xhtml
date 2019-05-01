@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:body>
+    	<h:form>
+	    Hard-coded with "f:selectItem" : 
+   		<h:selectOneMenu value="#{user.favItem}">
+   			<f:selectItem itemValue="A" itemLabel="Coffee A" />
+   			<f:selectItem itemValue="B" itemLabel="Coffee B" />
+   			<f:selectItem itemValue="C" itemLabel="Coffee C" />
+   		</h:selectOneMenu>
+		
+		<br /><br />
+	    
+    	<h:commandButton value="Submit" action="result" />
+		<h:commandButton value="Reset" type="reset" />
+
+    	</h:form>
+    	
+    </h:body>
+</html>

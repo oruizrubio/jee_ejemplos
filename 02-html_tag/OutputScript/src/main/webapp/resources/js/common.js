@@ -1,0 +1,1 @@
+document.write('java2s.com');
